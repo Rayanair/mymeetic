@@ -1,0 +1,20 @@
+.profil{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 100px;
+}
+.profil div{
+    padding: 50px;
+    margin-left: 200px;
+    background-color: rgb(90, 90, 90);
+    border-radius: 10px;
+    transition: 0.7s;
+    color: white;
+}
+
+.profil div:hover{
+    background-color: rgb(160, 149, 234);
+    color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 50px rgb(89, 171, 218);
+    transition: 0.7s;
+}

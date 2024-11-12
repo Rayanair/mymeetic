@@ -1,0 +1,79 @@
+.recherche{
+    background-color: rgb(179, 179, 179);
+    padding: 50px 0 50px 0;
+    transition: 0.8s;
+}
+.recherche:hover{
+    background-color: rgb(69, 171, 230);
+    padding: 50px 0 50px 0;
+    color: white;
+    transition: 0.8s;
+}
+.recherche form{
+    display: flex;
+}
+.recherche form div{
+    margin-left: 100px;
+}
+.recherche form div select{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+.recherche form div input{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+.profiles{
+    padding: 20px;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    background-color: rgb(89, 89, 89);
+    width: 300px;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.profiles:hover{
+   background-color: rgb(93, 179, 202);
+   color: black;
+   transition: 0.7s;
+   box-shadow: 10px 10px 50px rgb(0, 0, 0);
+}
+
+._slider{
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    width: 400px;
+    margin-left: 35%;
+    margin-top: 10%;
+    transition: 0.8s;
+}
+._slider:hover{
+    background-color: rgb(66, 177, 221);
+    transition: 0.8s;
+}
+.elsection{
+    position: relative;
+    display: flex;
+}
+._slider_next{
+    position:absolute;
+    bottom: 150px;
+    left: 372px;
+}
+._slider_prev{
+    position:absolute;
+    bottom: 150px;
+}
+
+  

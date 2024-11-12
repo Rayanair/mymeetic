@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+section{
+    height: 600px;
+    width: 400px;
+    padding: 20px;
+    margin-left: 35%;
+    margin-top: 5%;
+    border-radius: 10px;
+    background-color: rgb(208, 208, 208);
+    color: black;
+    transition: 0.8s;
+}
+section:hover{
+    background-color: rgb(184, 184, 184);
+    height: 600px;
+    width: 400px;
+    transition: 0.8s;
+    padding: 20px;
+    margin-left: 35%;
+    margin-top: 5%;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}

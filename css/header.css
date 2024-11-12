@@ -1,0 +1,64 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+}
+nav{
+    background-color: rgb(223, 223, 223);
+}
+
+a{
+color: rgb(0, 0, 0);
+background-color: white;
+border-radius: 0px;
+padding: 10px;
+text-decoration: none;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(74, 137, 183);
+    transition: 0.7s;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+} 
+li{
+    padding: 2% 5%;
+    list-style: none;
+}
+
+p{
+    margin: 0;
+    padding: 10px;
+}
+h1{
+    margin: 0;
+    padding: 10px;
+}
+.profil{
+    background-color: rgb(103, 103, 103);
+}
+.bonj{
+    font-size: 70px;
+    padding-top: 130px;
+} 
+.bienvenu{
+    height: 400px;
+    width: 500px;
+    margin-top: 10%;
+    margin-left: 30%;
+    background-color: rgb(83, 83, 83);
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    transition: 0.8s;
+}
+.bienvenu:hover{
+    background-color: rgb(87, 144, 231);
+    margin-left: 0%;
+    width: 1500px;
+    transition: 0.8s;
+}

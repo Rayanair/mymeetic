@@ -1,0 +1,60 @@
+.modif{
+    background-color: rgb(62, 62, 62);
+    padding: 50px;
+    transition: 0.8s;
+}
+
+.modif .ladiv{
+    margin-left: 35%;
+    padding: 50px;
+    width: 270px;
+    background-color: rgb(142, 140, 140);
+    border-radius: 10px;
+    transition: 0.8s;
+}
+.modif .ladiv:hover{
+    border-radius: 10px;
+    background-color: rgb(88, 120, 234);
+    transition: 0.8s;
+}
+.modif .ladiv select{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.modif .ladiv input{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: none;
+    transition: 0.7s;
+}
+
+#elmodif:hover{
+    transition: 0.7s;
+    color: white;
+    background-color: rgb(45, 140, 88);
+    box-shadow: 0px 5px 10px black;
+}
+#elsup:hover{
+    transition: 0.7s;
+    color: white;
+    background-color: rgb(140, 45, 45);
+    box-shadow: 0px 5px 10px black;
+}
+#eldeco:hover{
+    transition: 0.7s;
+    color: white;
+    background-color: rgb(45, 92, 140);
+    box-shadow: 0px 5px 10px black;
+}
+h1{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
